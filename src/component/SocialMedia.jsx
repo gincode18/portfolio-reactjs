@@ -4,13 +4,13 @@ import {AiFillLinkedin} from 'react-icons/ai'
 const SocialMedia = () => (
   <div className="app__social">
     <div>
-      <BsGithub />
+      <a href='https://github.com/gincode18/'><BsGithub /></a>
     </div>
     <div>
-      <AiFillLinkedin />
+     <a href='https://www.linkedin.com/in/vishal-kamboj-5a187a208'> <AiFillLinkedin /></a>
     </div>
     <div>
-      <BsInstagram />
+      <a href='https://www.instagram.com/vishal9252/'><BsInstagram /></a>
     </div>
   </div>
 );
